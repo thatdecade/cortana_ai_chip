@@ -2,7 +2,7 @@
 
 This folder is for building a Cortana AI Chip with an Adafruit Trinket Mini 5V dev board.
 
-[IMAGE]
+<img src="images/assembled.jpg" width="500"> 
 
 ## Part List:
 * Adafruit trinket https://amzn.to/2SXYDr3
@@ -21,6 +21,8 @@ We are a participant in the Amazon Services LLC Associates Program, an affiliate
 The Cortana Data Chip’s 3D model was designed by Dylan Powell. I modified the Halo Cortana Chip to fit the neopixel jewel and usb plug. Model is prescaled to 125%. Download: https://www.thingiverse.com/thing:4891701
 
 I printed the Data Chip with 0.20 layer height as a color change job at 2.80mm. Dark grey and then Silver.
+
+<img src="images/cortana_print_preview.png" width="500">
 
 ## Assembly and Wiring:
 * Trinket #0 to Neopixel Data In
