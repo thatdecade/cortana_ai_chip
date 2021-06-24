@@ -34,9 +34,9 @@ I printed the Data Chip with 0.20 layer height as a color change job at 2.80mm. 
 * WEMOS D1 to Button LED
 * WEMOS D2 to Button Switch
 
-The magnet connector has straight pins (not solder cup friendly).  Recommend using 30 AWG Wrapping Wire around the pins using a wire wrap tool, then soldering.
+The magnet connector has straight pins (not solder cup friendly).  Recommend using some spare perfboard as a breakout or some 30 AWG Wrapping Wire around the pins using a wire wrap tool, then soldering.  More info: https://learn.sparkfun.com/tutorials/working-with-wire/how-to-use-a-wire-wrap-tool
 
-More info: https://learn.sparkfun.com/tutorials/working-with-wire/how-to-use-a-wire-wrap-tool
+Since the magnet connector is not keyed, it is possible to connect the cortana ai chip in backwards and reverse all the pins to the neopixel.  To prevent burnout, place the V+ pin in the center and a 100k ohm resistor on the data pin.  The breakout board in the pcb folder does this.
 
 ## Arduino:
 
